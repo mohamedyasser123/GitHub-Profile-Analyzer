@@ -1,4 +1,4 @@
-🚀 GitHub Profile Analyzer
+<h1>🚀 GitHub Profile Analyzer</h1>
 
 A modern React dashboard that allows users to search for any GitHub profile and explore their repositories, statistics, and programming languages in a clean and visual interface.
 
