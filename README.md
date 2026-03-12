@@ -1,16 +1,91 @@
-# React + Vite
+🚀 GitHub Profile Analyzer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern React dashboard that allows users to search for any GitHub profile and explore their repositories, statistics, and programming languages in a clean and visual interface.
 
-Currently, two official plugins are available:
+This project was built to practice working with APIs, React component architecture, and data visualization.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-## React Compiler
+<h2>📌 Features</h2>
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🔍 Search for any GitHub user
 
-## Expanding the ESLint configuration
+👤 View user profile information
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+📦 Display public repositories
+
+📊 Programming languages statistics chart
+
+⭐ Repository stars and forks information
+
+📱 Responsive dashboard layout
+
+⚡ Fast API fetching and clean UI components
+
+<h2>🖥️ Screenshots </h2>
+
+<img width="1919" height="1027" alt="Screenshot 2026-03-12 055718" src="https://github.com/user-attachments/assets/f0b6a948-b441-4236-82ea-18d4dff99b9b" />
+<img width="1919" height="1014" alt="Screenshot 2026-03-12 055751" src="https://github.com/user-attachments/assets/7dfab019-890f-4699-ad25-0475cd3ba791" />
+<img width="1919" height="1026" alt="Screenshot 2026-03-12 055814" src="https://github.com/user-attachments/assets/1864136d-37cc-41d1-ba31-a5292edf3d44" />
+<img width="1919" height="1029" alt="Screenshot 2026-03-12 055827" src="https://github.com/user-attachments/assets/2159fcf8-b711-4f92-b359-ad326f337dc0" />
+
+
+
+
+<h1>🛠️ Tech Stack </h1>
+
+React
+
+JavaScript
+
+TailwindCSS
+
+Recharts (for charts)
+
+GitHub REST API
+
+API used:
+https://api.github.com
+
+
+
+
+<h2>📂 Project Structure </h2>
+
+src
+components
+ui
+profile
+repos
+hooks
+services
+utils
+pages
+
+📊 What I Learned
+
+While building this project I practiced:
+
+Fetching and handling external APIs
+
+Creating reusable React components
+
+Custom hooks for data fetching
+
+Data analysis from API responses
+
+Visualizing data using charts
+
+Building a simple dashboard UI
+
+
+
+🌐 Future Improvements
+
+Add repository filtering and sorting
+
+Improve loading states with skeleton loaders
+
+Add light mode
+
+Add pagination for repositories
